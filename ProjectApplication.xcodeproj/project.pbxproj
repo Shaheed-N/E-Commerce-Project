@@ -7,18 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7036551294B8F4500F9F425 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = F7036550294B8F4500F9F425 /* ACarousel */; };
+		F7036553294B8F5800F9F425 /* DetailCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7036552294B8F5800F9F425 /* DetailCarouselView.swift */; };
+		F70BD70F294626C20049DFA2 /* Mark-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F70BD70E294626C20049DFA2 /* Mark-Pro.ttf */; };
+		F724075E2947929D00097149 /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F724075D2947929D00097149 /* CarouselModel.swift */; };
+		F7240761294792BD00097149 /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7240760294792BD00097149 /* CarouselViewModel.swift */; };
+		F7240763294792DD00097149 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7240762294792DD00097149 /* CarouselView.swift */; };
+		F724076D29479DB500097149 /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F724076429479DB400097149 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */; };
+		F724076E29479DB500097149 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F724076529479DB400097149 /* SFPRODISPLAYBLACKITALIC.OTF */; };
+		F724076F29479DB500097149 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F724076629479DB400097149 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */; };
+		F724077029479DB500097149 /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F724076729479DB500097149 /* SFPRODISPLAYREGULAR.OTF */; };
+		F724077129479DB500097149 /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F724076829479DB500097149 /* SFPRODISPLAYMEDIUM.OTF */; };
+		F724077229479DB500097149 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F724076929479DB500097149 /* SFPRODISPLAYHEAVYITALIC.OTF */; };
+		F724077329479DB500097149 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F724076A29479DB500097149 /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		F724077429479DB500097149 /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F724076B29479DB500097149 /* SFPRODISPLAYBOLD.OTF */; };
+		F724077529479DB500097149 /* SFPRODISPLAYTHINITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F724076C29479DB500097149 /* SFPRODISPLAYTHINITALIC.OTF */; };
+		F7244A58294C7E3300B1F78C /* BasketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7244A57294C7E3300B1F78C /* BasketModel.swift */; };
+		F7244A5D294C7EC200B1F78C /* MainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7244A5C294C7EC200B1F78C /* MainService.swift */; };
+		F7244A5F294C7ED600B1F78C /* BasketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7244A5E294C7ED600B1F78C /* BasketService.swift */; };
+		F7244A61294C978500B1F78C /* OtherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7244A60294C978500B1F78C /* OtherViewModel.swift */; };
+		F7288FDC294A0007005BA50A /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7288FDB294A0007005BA50A /* Tabbar.swift */; };
+		F73115D8294F529500FC7C58 /* BagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73115D7294F529500FC7C58 /* BagView.swift */; };
+		F73F716C294E59AC004C41C4 /* NewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73F716B294E59AC004C41C4 /* NewScreen.swift */; };
+		F7436D50294613E300B9AD27 /* MarkPro-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7436D4F294613E300B9AD27 /* MarkPro-Heavy.ttf */; };
+		F7436D522946141C00B9AD27 /* MarkPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7436D512946141C00B9AD27 /* MarkPro-Medium.ttf */; };
+		F7436D542946247100B9AD27 /* Mark-Pro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7436D532946247100B9AD27 /* Mark-Pro-Bold.ttf */; };
+		F74AD29D29466220003E6D93 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74AD29C29466220003E6D93 /* CategoryModel.swift */; };
+		F75E78EE294DD7F200732B8D /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E78ED294DD7F200732B8D /* CustomTabbarView.swift */; };
+		F75E78F0294DDA8700732B8D /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E78EF294DDA8700732B8D /* Main.swift */; };
+		F77070C529499B5100A3AA3B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77070C429499B5100A3AA3B /* ContentViewModel.swift */; };
+		F784A720294EAD8F004405F4 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784A71F294EAD8F004405F4 /* Any.swift */; };
+		F784A722294EAF3C004405F4 /* Viewroyter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784A721294EAF3C004405F4 /* Viewroyter.swift */; };
+		F785F646294A80C600CD84D3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785F645294A80C600CD84D3 /* HeaderView.swift */; };
+		F7C169A3294B2EFA00281C1C /* HeaderForDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C169A2294B2EFA00281C1C /* HeaderForDetail.swift */; };
+		F7DE90282947AA2E006AF6EC /* FontsFree-Net-SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7DE90272947AA2D006AF6EC /* FontsFree-Net-SFProDisplay-Bold.ttf */; };
 		F7ED73D12946050200175529 /* ProjectApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED73D02946050200175529 /* ProjectApplicationApp.swift */; };
-		F7ED73D32946050200175529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED73D22946050200175529 /* ContentView.swift */; };
 		F7ED73D52946050200175529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ED73D42946050200175529 /* Assets.xcassets */; };
 		F7ED73D82946050200175529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ED73D72946050200175529 /* Preview Assets.xcassets */; };
+		F7ED73E12946051300175529 /* ForFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED73DF2946051300175529 /* ForFont.swift */; };
+		F7ED73E22946051300175529 /* ForColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED73E02946051300175529 /* ForColor.swift */; };
+		F7ED73EB2946051B00175529 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED73E92946051B00175529 /* HomeView.swift */; };
+		F7ED73EC2946051B00175529 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED73EA2946051B00175529 /* SplashView.swift */; };
+		F7ED80C3294C026A0073AC8C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED80C2294C026A0073AC8C /* CartView.swift */; };
+		F7F108B2294915D5006A92D1 /* SnapCarouesel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F108B1294915D5006A92D1 /* SnapCarouesel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7036552294B8F5800F9F425 /* DetailCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarouselView.swift; sourceTree = "<group>"; };
+		F70BD70E294626C20049DFA2 /* Mark-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark-Pro.ttf"; sourceTree = "<group>"; };
+		F724075D2947929D00097149 /* CarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		F7240760294792BD00097149 /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		F7240762294792DD00097149 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		F724076429479DB400097149 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYULTRALIGHTITALIC.OTF; sourceTree = "<group>"; };
+		F724076529479DB400097149 /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBLACKITALIC.OTF; sourceTree = "<group>"; };
+		F724076629479DB400097149 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYSEMIBOLDITALIC.OTF; sourceTree = "<group>"; };
+		F724076729479DB500097149 /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		F724076829479DB500097149 /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		F724076929479DB500097149 /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYHEAVYITALIC.OTF; sourceTree = "<group>"; };
+		F724076A29479DB500097149 /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYLIGHTITALIC.OTF; sourceTree = "<group>"; };
+		F724076B29479DB500097149 /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		F724076C29479DB500097149 /* SFPRODISPLAYTHINITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYTHINITALIC.OTF; sourceTree = "<group>"; };
+		F7244A57294C7E3300B1F78C /* BasketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketModel.swift; sourceTree = "<group>"; };
+		F7244A5C294C7EC200B1F78C /* MainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainService.swift; sourceTree = "<group>"; };
+		F7244A5E294C7ED600B1F78C /* BasketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketService.swift; sourceTree = "<group>"; };
+		F7244A60294C978500B1F78C /* OtherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewModel.swift; sourceTree = "<group>"; };
+		F7288FDB294A0007005BA50A /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		F73115D7294F529500FC7C58 /* BagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagView.swift; sourceTree = "<group>"; };
+		F73F716B294E59AC004C41C4 /* NewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScreen.swift; sourceTree = "<group>"; };
+		F7436D4F294613E300B9AD27 /* MarkPro-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkPro-Heavy.ttf"; sourceTree = "<group>"; };
+		F7436D512946141C00B9AD27 /* MarkPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkPro-Medium.ttf"; sourceTree = "<group>"; };
+		F7436D532946247100B9AD27 /* Mark-Pro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark-Pro-Bold.ttf"; sourceTree = "<group>"; };
+		F74AD29C29466220003E6D93 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		F75E78ED294DD7F200732B8D /* CustomTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarView.swift; sourceTree = "<group>"; };
+		F75E78EF294DDA8700732B8D /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		F77070C429499B5100A3AA3B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F784A71F294EAD8F004405F4 /* Any.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
+		F784A721294EAF3C004405F4 /* Viewroyter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewroyter.swift; sourceTree = "<group>"; };
+		F785F645294A80C600CD84D3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F7C169A2294B2EFA00281C1C /* HeaderForDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderForDetail.swift; sourceTree = "<group>"; };
+		F7DE90272947AA2D006AF6EC /* FontsFree-Net-SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		F7ED73CD2946050200175529 /* ProjectApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ED73D02946050200175529 /* ProjectApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApplicationApp.swift; sourceTree = "<group>"; };
-		F7ED73D22946050200175529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7ED73D42946050200175529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7ED73D72946050200175529 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7ED73DF2946051300175529 /* ForFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForFont.swift; sourceTree = "<group>"; };
+		F7ED73E02946051300175529 /* ForColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForColor.swift; sourceTree = "<group>"; };
+		F7ED73E92946051B00175529 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F7ED73EA2946051B00175529 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F7ED73ED29460DD400175529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F7ED80C2294C026A0073AC8C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		F7F108B1294915D5006A92D1 /* SnapCarouesel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarouesel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +104,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7036551294B8F4500F9F425 /* ACarousel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F70BD710294628F40049DFA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F74AD29C29466220003E6D93 /* CategoryModel.swift */,
+				F724075D2947929D00097149 /* CarouselModel.swift */,
+				F7F108B1294915D5006A92D1 /* SnapCarouesel.swift */,
+				F7244A57294C7E3300B1F78C /* BasketModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F724075F294792AD00097149 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7240760294792BD00097149 /* CarouselViewModel.swift */,
+				F77070C429499B5100A3AA3B /* ContentViewModel.swift */,
+				F7288FDB294A0007005BA50A /* Tabbar.swift */,
+				F7244A60294C978500B1F78C /* OtherViewModel.swift */,
+				F784A721294EAF3C004405F4 /* Viewroyter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F7244A5B294C7EB200B1F78C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F7244A5C294C7EC200B1F78C /* MainService.swift */,
+				F7244A5E294C7ED600B1F78C /* BasketService.swift */,
+			);
+			name = Services;
+			path = ViewModel/Services;
+			sourceTree = "<group>";
+		};
 		F7ED73C42946050200175529 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +163,14 @@
 		F7ED73CF2946050200175529 /* ProjectApplication */ = {
 			isa = PBXGroup;
 			children = (
+				F7244A5B294C7EB200B1F78C /* Services */,
+				F724075F294792AD00097149 /* ViewModel */,
+				F70BD710294628F40049DFA2 /* Model */,
+				F7ED73ED29460DD400175529 /* Info.plist */,
+				F7ED73E82946051B00175529 /* Views */,
+				F7ED73E32946051700175529 /* Fonts */,
+				F7ED73DE2946051300175529 /* Short */,
 				F7ED73D02946050200175529 /* ProjectApplicationApp.swift */,
-				F7ED73D22946050200175529 /* ContentView.swift */,
 				F7ED73D42946050200175529 /* Assets.xcassets */,
 				F7ED73D62946050200175529 /* Preview Content */,
 			);
@@ -65,6 +183,55 @@
 				F7ED73D72946050200175529 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7ED73DE2946051300175529 /* Short */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED73DF2946051300175529 /* ForFont.swift */,
+				F7ED73E02946051300175529 /* ForColor.swift */,
+			);
+			path = Short;
+			sourceTree = "<group>";
+		};
+		F7ED73E32946051700175529 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F724076529479DB400097149 /* SFPRODISPLAYBLACKITALIC.OTF */,
+				F724076B29479DB500097149 /* SFPRODISPLAYBOLD.OTF */,
+				F7DE90272947AA2D006AF6EC /* FontsFree-Net-SFProDisplay-Bold.ttf */,
+				F724076929479DB500097149 /* SFPRODISPLAYHEAVYITALIC.OTF */,
+				F724076A29479DB500097149 /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				F724076829479DB500097149 /* SFPRODISPLAYMEDIUM.OTF */,
+				F724076729479DB500097149 /* SFPRODISPLAYREGULAR.OTF */,
+				F724076629479DB400097149 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */,
+				F724076C29479DB500097149 /* SFPRODISPLAYTHINITALIC.OTF */,
+				F724076429479DB400097149 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */,
+				F7436D532946247100B9AD27 /* Mark-Pro-Bold.ttf */,
+				F7436D4F294613E300B9AD27 /* MarkPro-Heavy.ttf */,
+				F7436D512946141C00B9AD27 /* MarkPro-Medium.ttf */,
+				F70BD70E294626C20049DFA2 /* Mark-Pro.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F7ED73E82946051B00175529 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED73E92946051B00175529 /* HomeView.swift */,
+				F7ED73EA2946051B00175529 /* SplashView.swift */,
+				F7240762294792DD00097149 /* CarouselView.swift */,
+				F785F645294A80C600CD84D3 /* HeaderView.swift */,
+				F7C169A2294B2EFA00281C1C /* HeaderForDetail.swift */,
+				F7036552294B8F5800F9F425 /* DetailCarouselView.swift */,
+				F7ED80C2294C026A0073AC8C /* CartView.swift */,
+				F75E78ED294DD7F200732B8D /* CustomTabbarView.swift */,
+				F75E78EF294DDA8700732B8D /* Main.swift */,
+				F73F716B294E59AC004C41C4 /* NewScreen.swift */,
+				F784A71F294EAD8F004405F4 /* Any.swift */,
+				F73115D7294F529500FC7C58 /* BagView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +250,9 @@
 			dependencies = (
 			);
 			name = ProjectApplication;
+			packageProductDependencies = (
+				F7036550294B8F4500F9F425 /* ACarousel */,
+			);
 			productName = ProjectApplication;
 			productReference = F7ED73CD2946050200175529 /* ProjectApplication.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +281,14 @@
 				Base,
 			);
 			mainGroup = F7ED73C42946050200175529;
+			packageReferences = (
+				F7DE902B2947BE2A006AF6EC /* XCRemoteSwiftPackageReference "ACarousel" */,
+				F77070C82949C8CE00A3AA3B /* XCRemoteSwiftPackageReference "TabBar" */,
+				F77070CD2949D31300A3AA3B /* XCRemoteSwiftPackageReference "TabBar" */,
+				F77070D02949DA4D00A3AA3B /* XCRemoteSwiftPackageReference "StatefulTabView" */,
+				F703654F294B8F4500F9F425 /* XCRemoteSwiftPackageReference "ACarousel" */,
+				F7285667294D035D002FC75C /* XCRemoteSwiftPackageReference "HidableTabView-SwiftUI" */,
+			);
 			productRefGroup = F7ED73CE2946050200175529 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +303,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F724077129479DB500097149 /* SFPRODISPLAYMEDIUM.OTF in Resources */,
+				F7436D542946247100B9AD27 /* Mark-Pro-Bold.ttf in Resources */,
 				F7ED73D82946050200175529 /* Preview Assets.xcassets in Resources */,
+				F7436D522946141C00B9AD27 /* MarkPro-Medium.ttf in Resources */,
+				F724076D29479DB500097149 /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */,
+				F724077329479DB500097149 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				F7436D50294613E300B9AD27 /* MarkPro-Heavy.ttf in Resources */,
+				F724076E29479DB500097149 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
 				F7ED73D52946050200175529 /* Assets.xcassets in Resources */,
+				F724077529479DB500097149 /* SFPRODISPLAYTHINITALIC.OTF in Resources */,
+				F7DE90282947AA2E006AF6EC /* FontsFree-Net-SFProDisplay-Bold.ttf in Resources */,
+				F724076F29479DB500097149 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */,
+				F724077229479DB500097149 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
+				F724077029479DB500097149 /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				F724077429479DB500097149 /* SFPRODISPLAYBOLD.OTF in Resources */,
+				F70BD70F294626C20049DFA2 /* Mark-Pro.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +329,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7ED73D32946050200175529 /* ContentView.swift in Sources */,
+				F7ED80C3294C026A0073AC8C /* CartView.swift in Sources */,
+				F7ED73E12946051300175529 /* ForFont.swift in Sources */,
+				F784A720294EAD8F004405F4 /* Any.swift in Sources */,
+				F77070C529499B5100A3AA3B /* ContentViewModel.swift in Sources */,
+				F784A722294EAF3C004405F4 /* Viewroyter.swift in Sources */,
+				F73115D8294F529500FC7C58 /* BagView.swift in Sources */,
+				F7244A61294C978500B1F78C /* OtherViewModel.swift in Sources */,
+				F785F646294A80C600CD84D3 /* HeaderView.swift in Sources */,
+				F74AD29D29466220003E6D93 /* CategoryModel.swift in Sources */,
+				F7F108B2294915D5006A92D1 /* SnapCarouesel.swift in Sources */,
 				F7ED73D12946050200175529 /* ProjectApplicationApp.swift in Sources */,
+				F7288FDC294A0007005BA50A /* Tabbar.swift in Sources */,
+				F7ED73EB2946051B00175529 /* HomeView.swift in Sources */,
+				F7240763294792DD00097149 /* CarouselView.swift in Sources */,
+				F7240761294792BD00097149 /* CarouselViewModel.swift in Sources */,
+				F7ED73E22946051300175529 /* ForColor.swift in Sources */,
+				F7244A5D294C7EC200B1F78C /* MainService.swift in Sources */,
+				F7ED73EC2946051B00175529 /* SplashView.swift in Sources */,
+				F75E78EE294DD7F200732B8D /* CustomTabbarView.swift in Sources */,
+				F7036553294B8F5800F9F425 /* DetailCarouselView.swift in Sources */,
+				F75E78F0294DDA8700732B8D /* Main.swift in Sources */,
+				F7244A58294C7E3300B1F78C /* BasketModel.swift in Sources */,
+				F73F716C294E59AC004C41C4 /* NewScreen.swift in Sources */,
+				F724075E2947929D00097149 /* CarouselModel.swift in Sources */,
+				F7C169A3294B2EFA00281C1C /* HeaderForDetail.swift in Sources */,
+				F7244A5F294C7ED600B1F78C /* BasketService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +486,7 @@
 				DEVELOPMENT_TEAM = 84K6WW66LF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjectApplication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +516,7 @@
 				DEVELOPMENT_TEAM = 84K6WW66LF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjectApplication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +557,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F703654F294B8F4500F9F425 /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F7285667294D035D002FC75C /* XCRemoteSwiftPackageReference "HidableTabView-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliMert/HidableTabView-SwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F77070C82949C8CE00A3AA3B /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F77070CD2949D31300A3AA3B /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F77070D02949DA4D00A3AA3B /* XCRemoteSwiftPackageReference "StatefulTabView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NicholasBellucci/StatefulTabView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.9;
+			};
+		};
+		F7DE902B2947BE2A006AF6EC /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7036550294B8F4500F9F425 /* ACarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7DE902B2947BE2A006AF6EC /* XCRemoteSwiftPackageReference "ACarousel" */;
+			productName = ACarousel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7ED73C52946050200175529 /* Project object */;
 }
