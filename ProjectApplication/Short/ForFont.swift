@@ -18,3 +18,10 @@ struct Fonts {
     static let sfbolds = "FontsFree-Net-SFProDisplay-Bold"
 }
 }
+
+struct Images {
+  struct image {
+    static let computer = "Computers"
+}
+}
+

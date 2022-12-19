@@ -40,7 +40,6 @@
 		F7AD2CD42950C9C10083585E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD2CD32950C9C10083585E /* HomeView.swift */; };
 		F7AD2CD62950C9DD0083585E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD2CD52950C9DD0083585E /* HeaderView.swift */; };
 		F7AD2CD82950C9F00083585E /* MainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD2CD72950C9F00083585E /* MainService.swift */; };
-		F7AD2CDA2950CA9E0083585E /* Forimages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD2CD92950CA9E0083585E /* Forimages.swift */; };
 		F7C169A3294B2EFA00281C1C /* HeaderForDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C169A2294B2EFA00281C1C /* HeaderForDetail.swift */; };
 		F7DE90282947AA2E006AF6EC /* FontsFree-Net-SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7DE90272947AA2D006AF6EC /* FontsFree-Net-SFProDisplay-Bold.ttf */; };
 		F7ED73D12946050200175529 /* ProjectApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED73D02946050200175529 /* ProjectApplicationApp.swift */; };
@@ -86,7 +85,6 @@
 		F7AD2CD32950C9C10083585E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F7AD2CD52950C9DD0083585E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F7AD2CD72950C9F00083585E /* MainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainService.swift; sourceTree = "<group>"; };
-		F7AD2CD92950CA9E0083585E /* Forimages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forimages.swift; sourceTree = "<group>"; };
 		F7C169A2294B2EFA00281C1C /* HeaderForDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderForDetail.swift; sourceTree = "<group>"; };
 		F7DE90272947AA2D006AF6EC /* FontsFree-Net-SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		F7ED73CD2946050200175529 /* ProjectApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,7 +188,6 @@
 			children = (
 				F7ED73DF2946051300175529 /* ForFont.swift */,
 				F7ED73E02946051300175529 /* ForColor.swift */,
-				F7AD2CD92950CA9E0083585E /* Forimages.swift */,
 			);
 			path = Short;
 			sourceTree = "<group>";
@@ -350,7 +347,6 @@
 				F75E78EE294DD7F200732B8D /* CustomTabbarView.swift in Sources */,
 				F7036553294B8F5800F9F425 /* DetailCarouselView.swift in Sources */,
 				F75E78F0294DDA8700732B8D /* Main.swift in Sources */,
-				F7AD2CDA2950CA9E0083585E /* Forimages.swift in Sources */,
 				F7244A58294C7E3300B1F78C /* BasketModel.swift in Sources */,
 				F73F716C294E59AC004C41C4 /* NewScreen.swift in Sources */,
 				F724075E2947929D00097149 /* CarouselModel.swift in Sources */,
