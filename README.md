@@ -1,6 +1,6 @@
 # E-Commerce-Project
 
-! Xcode не принимает фонт "Mark Pro", а также изображения имеют разные размеры, из-за этого имеют расстояние между элементами
+E-commerce project 
 
 <img width="496" alt="Снимок экрана 2022-12-18 в 20 58 09" src="https://user-images.githubusercontent.com/103990532/208310204-4e3beb88-588e-420b-9bde-c9067a1a6e4f.png">
 
